@@ -6,7 +6,7 @@ int main(){
     int populacao1, pontos_turisticos1;
     float pib1, area1,densidade1,renda1, densidadeinvertida1, superpoder1;
 
-    //Variáveis para a Segunda Carta
+    //Variáveis para a Segunda Carta;
     char estado2, codigo2[5], cidade2[20];
     int populacao2, pontos_turisticos2;
     float pib2, area2, densidade2, renda2, densidadeinvertida2, superpoder2;
@@ -16,7 +16,7 @@ int main(){
     printf("\n");
     printf("----------  VERSÃO 2.ALGUMA.COISA :P------------\n");
     printf("\n");
-    //CADASTRO DA PRIMEIRA CARTA
+    //CADASTRO DA PRIMEIRA CARTA;
     printf("----------- CADASTRO DA PRIMEIRA CARTA -----------\n");
 
     printf("Digite o Estado usando uma letra entre (A - H): ");
@@ -41,7 +41,7 @@ int main(){
     scanf("%d/n", &pontos_turisticos1);
     printf("\n");
 
-    //CADASTRO DA SEGUNDA CARTA
+    //CADASTRO DA SEGUNDA CARTA;
     printf("----------- CADASTRO DA SEGUNDA CARTA -----------\n");
 
     printf("Digite o Estado usando uma letra entre (A - H): ");
@@ -76,10 +76,10 @@ int main(){
     densidadeinvertida2 = (float)(area2 / populacao2);
     renda2 = (float)(pib2 / populacao2);
 
-    //super poder - primeira carta
+    //super poder - primeira carta;
     superpoder1 = (float)(populacao1 + area1 + pib1 + pontos_turisticos1 +renda1 + densidadeinvertida1);
 
-    //super poder - segunda carta
+    //super poder - segunda carta;
     superpoder2 = (float)(populacao2 + area2 + pib2 + pontos_turisticos2 +renda2 + densidadeinvertida2);
 
     //RESULTADO PRIMEIRA CARTA;
@@ -117,7 +117,7 @@ int main(){
 
     printf("\n");
 
-    // COMPARAÇÃO DAS CARTAS
+    // COMPARAÇÃO DAS CARTAS;
 
     printf("   *******************  COMPARAÇÃO DAS CARTAS  *******************   \n");
     printf("\n");
